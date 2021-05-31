@@ -19,6 +19,11 @@ class ConverterTests: XCTestCase {
         let result = converter.convert(1)
         XCTAssertEqual(result, "I", "Conversion for 1 is correct")
     }
+    
+    func testConversionForTwo() {
+        let result = converter.convert(2)
+        XCTAssertEqual(result, "II", "Convert for 2 is incorrect")
+    }
 }
 
 
