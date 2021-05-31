@@ -1,7 +1,13 @@
 
 class Converter {
   func convert(_ number: Int) -> String {
-    return "I"
+    var str:String = ""
+    
+    for _ in 0..<number {
+        str += "I"
+    }
+    
+    return str
   }
   
 }
